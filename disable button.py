@@ -1,9 +1,9 @@
 from tkinter import *
 root = Tk()
-var=stringvar()
+var=StringVar()
 
 def check():
-    a=e1.Get()
+    a=e1.get()
     if(a)=="meena":
         b1.configure(state="active")
     else:
